@@ -40,11 +40,11 @@ const CardMessage = ({ name, title, date, tags, email, images, bannerImg }) => (
           <p>
             Hi <span>"Customer Name"</span>
           </p>
-          <p>
-            Thanks for collaborating with for <span>"Period of Time"</span> we prepared an
+          <p className="text-row-two">
+            Thanks for collaborating with for <span>"Period of Time"</span>
           </p>
-          <p> Easter git for you </p>
-          <div className="text-padding-titles">
+          <p className="text-row-three">we prepared an Easter git for you </p>
+          <div className="image-rounded">
             {images.map((image) => (
               <ImageItem key={image.id} image={image} />
             ))}
