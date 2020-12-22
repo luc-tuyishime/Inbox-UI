@@ -24,4 +24,12 @@
   .grid > div:last-child {
     grid-column: span 4;
   }
+
+  .themeColor {
+    background-color: $theme-color !important;
+  }
+
+  .theme-switcher {
+    text-align: center;
+  }
 }

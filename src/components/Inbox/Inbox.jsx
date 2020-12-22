@@ -13,12 +13,13 @@ import ATTACH from '../../assets/paperclip.png';
 import MAIL from '../../assets/mail.png';
 
 import './Inbox.scss';
+import '../Inbox/Inbox.scss';
 
-export default function InboxMenu() {
+export default function InboxMenu({ color }) {
   const [state] = useState(INBOX_DATA);
 
   return (
-    <div className="Inbox">
+    <div className={`${color ? 'themeColor' : ''} Inbox`}>
       <div className="padding-inbox">
         <span className="text-inbox">Inbox</span>
         <div className="right-menu">
