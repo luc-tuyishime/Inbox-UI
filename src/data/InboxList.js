@@ -9,7 +9,7 @@ const INBOX_DATA = [
       'https://images.unsplash.com/photo-1588146256435-63ec0608c415?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2001&q=80',
     tags: [
       {
-        id: 1,
+        id: 10,
         status: 'Interested',
         journal: 'The New York Time',
         campaign: 'August Campaign'
@@ -17,7 +17,7 @@ const INBOX_DATA = [
     ],
     images: [
       {
-        id: 1,
+        id: 3,
         imgGiftLeft:
           'https://images.unsplash.com/photo-1528563784587-3d5fc51e8082?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80',
         imgGiftMiddle:
@@ -36,7 +36,7 @@ const INBOX_DATA = [
     time: '9:57 AM',
     tags: [
       {
-        id: 1,
+        id: 9,
         status: 'Uncategorized',
         journal: 'BBC',
         campaign: 'July Campaign'
@@ -46,12 +46,12 @@ const INBOX_DATA = [
     content: 'From the same device you requested for.......'
   },
   {
-    id: 3,
+    id: 12,
     name: 'Katie Moran',
     time: 'Oct 29',
     tags: [
       {
-        id: 1,
+        id: 3,
         status: 'Interested',
         journal: 'The New York Time'
       }
@@ -65,7 +65,7 @@ const INBOX_DATA = [
     time: 'Oct 28',
     tags: [
       {
-        id: 1,
+        id: 7,
         status: 'Not Now',
         journal: 'KFC',
         campaign: 'September Campaign'
@@ -75,7 +75,7 @@ const INBOX_DATA = [
     content: 'From the same device you requested for.......'
   },
   {
-    id: 1,
+    id: 3,
     name: 'Hester Nichols',
     time: 'Oct 28',
     tags: [

@@ -8,9 +8,9 @@ const CardList = ({ name, time, tags, title, content }) => (
     <div className={`${title === 'Promotion gift Template' ? 'border-selected' : ''}`}>
       <div className="text-padding-titles title-padding">
         {name === 'Esaie, Nick...Me' ? (
-          <span class="circle"></span>
+          <span className="circle"></span>
         ) : name === 'Katie, Essai, Nick...Me' ? (
-          <span class="circle"></span>
+          <span className="circle"></span>
         ) : null}
         <span className="text-name">{name}</span>
         <span className="text-date">{time}</span>
