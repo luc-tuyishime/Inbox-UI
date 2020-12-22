@@ -30,6 +30,7 @@ class Inbox extends Component {
   }
 
   render() {
+    const { bgColored } = this.state;
     return (
       <div className={`Inbox`}>
         <div className="grid">
@@ -45,10 +46,10 @@ class Inbox extends Component {
             </div>
           </div>
           <div>
-            <InboxMenu color={this.state.bgColored} />
+            <InboxMenu color={bgColored} />
           </div>
           <div>
-            <Message />
+            <Message color={bgColored} />
           </div>
         </div>
       </div>

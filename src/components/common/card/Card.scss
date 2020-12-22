@@ -108,6 +108,11 @@
     font-weight: bold;
   }
 
+  .text-top {
+    position: relative;
+    bottom: 5px;
+  }
+
   .title-attachment {
     color: $purpleColor;
     font-size: 17px;
