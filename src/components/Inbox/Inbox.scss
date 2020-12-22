@@ -1,0 +1,78 @@
+@import '../../globalVariablesColors/index.scss';
+
+.Inbox {
+  .right-menu {
+    float: right;
+  }
+
+  .right-menu img {
+    margin: 0 13px 0 0;
+  }
+
+  .text-inbox {
+    color: $purpleColor;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .box-bgColor {
+    background-color: $grayColor1;
+    display: inline-block;
+    margin-right: 9px;
+    width: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .search-style {
+    height: 15px;
+  }
+
+  .row-two {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .arrow-style {
+    height: 9px;
+    position: relative;
+    bottom: 3px;
+  }
+
+  .btn-style {
+    background-color: $blue;
+    border: 1px solid $blue;
+    width: 30%;
+    height: 33px;
+    float: right;
+    font-weight: 400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .btn-style span {
+    color: $white;
+    margin-left: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .mail-style {
+    position: relative;
+    top: 1px;
+  }
+
+  .list-container {
+    padding-top: 40px;
+  }
+
+  .padding-inbox {
+    padding: 20px;
+  }
+}

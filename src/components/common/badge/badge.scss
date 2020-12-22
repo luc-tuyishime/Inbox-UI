@@ -1,0 +1,66 @@
+@import '../../../globalVariablesColors/index.scss';
+
+.badge-item {
+  position: relative;
+  bottom: 30px;
+  right: 5px;
+  .tag-style {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .tag-style span {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 5px;
+    line-height: 5px;
+  }
+
+  .green-bg {
+    background-color: $bgGreen;
+    font-size: 13px;
+    color: $white;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .gray-bg {
+    background-color: $grayColor2;
+    font-size: 13px;
+    color: $white;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .yellow-bg {
+    background-color: $yellow;
+    color: $white;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .bg-tag {
+    background-color: $grayColor1;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}

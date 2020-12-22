@@ -1,0 +1,77 @@
+@import '../../globalVariablesColors/index.scss';
+
+.sidebar {
+  .img-mail {
+    vertical-align: middle;
+  }
+
+  .text-mail {
+    vertical-align: middle;
+    color: $purpleColor;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .sidebar-title {
+    padding: 5px;
+  }
+
+  .text-side {
+    margin-left: 16px;
+    margin-top: 15px;
+  }
+
+  .text-mail-menu {
+    vertical-align: middle;
+    color: $grayColor2;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .text-mail-menu-number {
+    vertical-align: middle;
+    float: right;
+    color: $grayColor2;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 13px;
+    margin-top: 8px;
+  }
+
+  .sidebar-menu {
+    padding-top: 120px;
+    padding: 50px 17px 0px 15px;
+  }
+
+  .bg-menu img {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .bg-menu span {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .sidebar-menu div {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  div:nth-child(3) {
+    background-color: $grayColor1;
+    border-radius: 13px;
+    width: 100%;
+    max-height: 5px;
+    line-height: 8px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  div:nth-child(3) > span {
+    color: #311b92;
+    font-weight: bold;
+  }
+}

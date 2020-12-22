@@ -1,0 +1,14 @@
+.message-item {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  .images-style img {
+    display: inline-block;
+    width: 98%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+}

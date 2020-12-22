@@ -1,0 +1,33 @@
+@import '../globalVariablesColors/index.scss';
+
+.Inbox {
+  border-radius: 15px;
+
+  .grid {
+    display: grid;
+    grid-gap: 3px;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .grid > div:nth-child(1) {
+    background-color: $grayLight1;
+    grid-column: span -1;
+  }
+
+  .grid > div:nth-child(2) {
+    grid-column: span 2;
+    box-shadow: 3px 5px $grayLight2;
+    background-color: $white;
+  }
+
+  .grid > div:last-child {
+    grid-column: span 4;
+  }
+
+  .grid > * {
+    // text-align: center;
+    // background-color: lightgreen;
+    // height: 200px;
+  }
+}
