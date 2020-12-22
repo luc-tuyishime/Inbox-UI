@@ -32,4 +32,17 @@
   .theme-switcher {
     text-align: center;
   }
+
+  .btn-change-them {
+    background-color: $blue;
+    color: $white;
+    border: 1px solid $blue;
+    margin-right: 5px;
+  }
+
+  .btn-reset {
+    background-color: $white;
+    color: $blue;
+    border: 1px solid $blue;
+  }
 }

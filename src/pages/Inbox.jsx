@@ -5,6 +5,7 @@ import '../index.css';
 import Sidebar from '../components/sidebar/Sidebar';
 import InboxMenu from '../components/Inbox/Inbox';
 import Message from '../components/message/Message';
+import Button from '../components/common/button/Button';
 
 const docBody = document.querySelector('body');
 
@@ -35,13 +36,12 @@ class Inbox extends Component {
           <div>
             <Sidebar />
             <div className="theme-switcher">
-              <a href="#" onClick={() => this.colorBackground()}>
+              <Button className="btn-change-them" onClick={() => this.colorBackground()}>
                 Change Theme
-              </a>
-              {' | '}
-              <a href="#" onClick={() => this.clearBackground()}>
+              </Button>
+              <Button className="btn-reset" onClick={() => this.clearBackground()}>
                 Reset
-              </a>
+              </Button>
             </div>
           </div>
           <div>
